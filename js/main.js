@@ -71,12 +71,14 @@ function validateForm(){
 	}
 	if(select.selectedIndex == ""){
 		span4.style.display = "block";
-		span4.innerHTML ="Debe seleccionar al menos un tipo de bici";
+		span4.innerHTML = " Debe seleccionar al menos un tipo de bici";
 		select.focus();
 		return false;
 	}
 	else{
 		span4.style.display = "none";
+		span4.innerHTML = "";
+		// select.focus();
 	}
 	element.reset();
 }
