@@ -22,34 +22,37 @@
           </h2>
           <div class="name-container input-box">
             <label for="name" class="sr-only">Nombre</label>
-            <input type="text" id="name" class="form-control"
-            placeholder="Ingrese su nombre">
+            <input type="text" id="name" class="form-control" placeholder="Ingrese su nombre">
+            <span id="wrong0" class="message"></span>
           </div>
           <div class="lastname-container input-box">
             <label for="lastname" class="sr-only">Apellido</label>
-            <input type="text" id="lastname" class="form-control"
-            placeholder="Ingrese su apellido">
+            <input type="text" id="lastname" class="form-control" placeholder="Ingrese su apellido">
+            <span id="wrong1" class="message"></span>
           </div>
           <div class="email-container input-box">
             <label for="inputEmail" class="sr-only">
               Correo Electrónico
             </label>
             <input type="email" id="input-email" class="form-control" placeholder="Ingrese su correo electrónico" autofocus="">
+            <span id="wrong2" class="message"></span>
           </div>
           <div class="form-group input-box">
             <label for="inputPassword" class="sr-only">
               Contraseña
             </label>
             <input type="password" id="input-password" class="form-control" placeholder="Ingrese su contraseña">
+            <span id="wrong3" class="message"></span>
           </div>
           <div class="form-group input-box">
-            <select class="form-control">
+            <select id="select" class="form-control">
               <option value="0">Selecciona tu tipo de bici</option>
               <option value="urbana">Urbana</option>
               <option value="treking">Treking</option>
               <option value="electrica">Eléctrica</option>
               <option value="estatica">Estática</option>
             </select>
+            <span id="wrong4" class="message"></span>
           </div>
           <div class="input-group">
             <div class="input-group-addon">@</div>
